@@ -1,5 +1,4 @@
 import 'dart:convert';
-import 'dart:ffi';
 
 import 'package:flutter/cupertino.dart';
 import 'package:http/http.dart' as http;
@@ -24,7 +23,7 @@ class ApiService {
     }
     print(
         'Request ${api.tokenUri()} faild\nResponse: ${response.statusCode} ${response.reasonPhrase}');
-    // throw response;
+    throw response;
   }
 
   Future<int> getEndPointData(
@@ -47,7 +46,8 @@ class ApiService {
       }
     }
     print(
-        '//Request ${api.tokenUri()} faild\nResponse: ${response.statusCode} ${response.reasonPhrase}');
+        'Request ${api.tokenUri()} faild\nResponse: ${response.statusCode} ${response.reasonPhrase}');
+    throw response;
   }
 
   static Map<EndPoint, String> responseJsonKeys = {

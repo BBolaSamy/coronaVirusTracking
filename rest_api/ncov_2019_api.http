@@ -6,49 +6,49 @@ Authorization: Basic {{authorization}}
 
 ###
 
-GET {{baseUrl}}/t/nubentos.com/ncovapi/2.0.0/cases
+GET {{baseUrl}}/t/nubentos.com/ncovapi/2.0.0/cases?country=Egypt
 Accept: "application/json"
 Authorization: Bearer {{accessToken}}
 
 ###
 
-GET {{baseUrl}}/t/nubentos.com/ncovapi/2.0.0/todayCases
+GET {{baseUrl}}/t/nubentos.com/ncovapi/2.0.0/todayCases?country=Egypt
 Accept: "application/json"
 Authorization: Bearer {{accessToken}}
 
 ###
 
-GET {{baseUrl}}/t/nubentos.com/ncovapi/2.0.0/active
+GET {{baseUrl}}/t/nubentos.com/ncovapi/2.0.0/active?country=Egypt
 Accept: "application/json"
 Authorization: Bearer {{accessToken}}
 
 ###
 
-GET {{baseUrl}}/t/nubentos.com/ncovapi/2.0.0/deaths
+GET {{baseUrl}}/t/nubentos.com/ncovapi/2.0.0/deaths?country=Egypt
 Accept: "application/json"
 Authorization: Bearer {{accessToken}}
 
 ###
 
-GET {{baseUrl}}/t/nubentos.com/ncovapi/2.0.0/todayDeaths
+GET {{baseUrl}}/t/nubentos.com/ncovapi/2.0.0/todayDeaths?country=Egypt
 Accept: "application/json"
 Authorization: Bearer {{accessToken}}
 
 ###
 
-GET {{baseUrl}}/t/nubentos.com/ncovapi/2.0.0/recovered
+GET {{baseUrl}}/t/nubentos.com/ncovapi/2.0.0/recovered?country=Egypt
 Accept: "application/json"
 Authorization: Bearer {{accessToken}}
 
 ###
 
-GET {{baseUrl}}/t/nubentos.com/ncovapi/2.0.0/critical
+GET {{baseUrl}}/t/nubentos.com/ncovapi/2.0.0/critical?country=Egypt
 Accept: "application/json"
 Authorization: Bearer {{accessToken}}
 
 ###
 
-GET {{baseUrl}}/t/nubentos.com/ncovapi/2.0.0/casesPerOneMillion
+GET {{baseUrl}}/t/nubentos.com/ncovapi/2.0.0/casesPerOneMillion?country=Egypt
 Accept: "application/json"
 Authorization: Bearer {{accessToken}}
 

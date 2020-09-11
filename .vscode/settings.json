@@ -3,7 +3,7 @@
         "sandbox" : {
             "baseUrl" : "https://apigw.nubentos.com:443",
             "authorization" : "OXhzZmZfZmVuVnlzR0g5aVhiMzR5d1BYRHgwYTprTU1sdERzeGR5aUFiTExHUV85U3FDOUNNZnNh"
-           "accessToken": "e4db5569-af1d-383b-bf5a-1ea1e3701e88",
+           "accessToken": "c6df5bf3-5280-323e-b8ed-1b2bacd31a76",
 
         },
         "production" : {
